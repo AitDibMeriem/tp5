@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="icon" href="x-icon.ico" type="image/x-icon">
+    <title>Tp05</title>
+</head>
+<body>
+    <div class="title">
+        <h2>Pratical Work N°5</h2>
+        
+        <h3>by Ait Dib Meriem</p>   
+        <button class="button" onclick="openMainPage()">
+            <span>Visit</span>
+        </button>        
+    </div>  
+    <script>
+        function openMainPage() {
+            window.location.href = "main.html";
+            document.addEventListener("DOMContentLoaded", function() {
+    var button = document.querySelector(".button");
+
+    button.addEventListener("click", function() {
+        window.location.href = "main.html";
+    });
+});
+
+        }
+    </script>
+    
+</body>
+</html>
